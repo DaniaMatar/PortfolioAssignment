@@ -1,0 +1,287 @@
+/* .box { 
+    color:  rgb(60, 38, 10);
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    overflow: hidden;
+    font-family: monospace;
+    font-size: large;
+    transition: all .5s ease-in-out;
+    background-color: rgb(230, 231, 223);
+    border-radius: 25px;
+    height: auto;
+    width: 80%;
+    border: 1.5px solid rgb(0, 36, 0);
+    padding: 20px;
+    margin: 100px;
+    position: inherit;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 60px 100px -20px, rgba(0, 0, 0, 0.3) 0px 40px 80px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+hr {
+    display: inline-block;
+    width:20%;
+    height: 0px;
+    border: 0;
+    border-top: 3px solid #ccc;
+    margin: auto;
+    padding: 0;
+}
+.column{
+    align-items: center;
+    height: 90%;
+    width: 100%;
+    margin: 1% 20px;
+}
+h1{
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    letter-spacing: 3px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start:0px;
+    margin-inline-end: 60px;
+    line-height: 175%;
+}
+body{
+    background-color: rgb(226, 213, 196);
+    margin:0;
+}
+#circle1{
+    background-color: rgb(138, 157, 89);
+    border-radius: 50%;
+    height: 225px;
+    width: 225px;
+    margin-top: 10%;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    top: 100px;
+    right: 3%;
+    margin: 0%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#circle2{
+    background-color: rgb(71, 80, 25);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-top: 10%;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    top: 250px;
+    left: 1%;
+    margin: 0%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#circle3{
+    background-color: rgb(60, 38, 10);
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top: 10%;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    top: 400px;
+    right: 40%;
+    margin: 0%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#circle4{
+    background-color: rgba(73, 126, 40, 0.855);
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin-top: 10%;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    top: 600px;
+    left: 20%;
+    margin: 0%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#circle5{
+    background-color: rgb(96, 87, 74);
+    border-radius: 50%;
+    height: 275px;
+    width: 275px;
+    margin-top: 10%;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    top: 800px;
+    right: 10%;
+    margin: 0%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#circle6{
+    background-color: rgba(160, 153, 104, 0.849);
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+    margin-top: 10%;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    top: 900px;
+    left: 5%;
+    margin: 0%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.green-div{
+    margin: 5px;
+    color: #4caf50;
+    padding: 15px;
+    border: 2px dashed green;
+}
+
+.row{
+    display: block;
+    width: 100%;
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(0, 36, 0);
+    height: 60px;
+}
+
+#dropdown-menu{
+    cursor: pointer;
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    width: 90px;
+    vertical-align: middle;
+    color: white;
+    background: rgb(0, 36, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+
+.dropdown-content{
+    cursor: pointer;
+    display: none;
+    background: rgb(0, 36, 0);
+    position: relative;
+    min-width: 160px;
+    z-index: 1;
+    left: 0;
+    font-weight: normal;
+    font-size: medium;
+}
+
+#dropdown-menu li{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    list-style-type: none;
+}
+
+#dropdown-menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+#dropdown-menu:hover .dropdown-content{
+    display: block;
+}
+
+#dropdown-menu li:hover{
+    background: rgb(12, 104, 12);
+}
+
+.right-content{
+    text-align: right;
+}
+
+.center-content{
+    text-align: center;
+}
+
+.dropdown-content.menu-rtl{
+    float: right;
+}
+
+.dropdown-content a{
+    color: white;
+    text-decoration: none;
+}
+.contactinfo {
+    margin-top: 15%;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contactitem span{
+    margin-top: 0%;
+    font-family: monospace;
+    font-size: larger;
+}
+.contactitem{
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    height: 50%;
+}
+
+.body{
+    padding: 0% 5%;
+}
+
+.contactitem img{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 10%;
+}
+
+.contactitem a,.contactitem span{
+    font-style: italic;
+}
+
+.content{
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.my-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.img-frame{
+    border-radius: 10px;
+    border: 1px solid grey;
+    display: inline-block;
+    padding: 2px;
+    margin-left: 6%;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.largeImage{
+    z-index: 10;
+    width: 35%;
+    position: absolute;
+    display: none;
+}
+
+.my-img:focus + #largeImage1,
+.my-img:focus + #largeImage2,
+.my-img:focus + #largeImage3{
+    display: block;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+} */

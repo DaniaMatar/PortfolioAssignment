@@ -1,0 +1,38 @@
+.burger-ico{
+    background: url("../images/icons/burgermenu128p.png");
+}
+
+.user-ico{
+    background: url("../images/icons/user.png");
+}
+
+.wallet-ico{
+    background: url("../images/icons/wallet.png");
+}
+
+.gallery-ico{
+    background: url("../images/icons/gallery.png");
+}
+.mail-ico{
+    background: url("../images/icons/mail.png")
+}
+.github-ico{
+    background: url("../images/icons/github-mark-white.png");
+}
+.phone-ico{
+    background: url("../images/icons/phone-call.png");
+}
+
+.ico{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-size: cover;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+.ico-l{
+    width: 24px;
+    height: 24px;
+}

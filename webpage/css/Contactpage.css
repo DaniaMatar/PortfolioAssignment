@@ -1,0 +1,51 @@
+
+.body{
+    padding: 0% 5%;
+}
+.my-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.img-frame{
+    border-radius: 10px;
+    border: 1px solid grey;
+    display: inline-block;
+    padding: 2px;
+    margin-left: 6%;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.contactinfo {
+    margin-top: 15%;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contactitem span{
+    margin-top: 0%;
+    font-family: monospace;
+    font-size: large;
+    color: rgb(37, 58, 105) ;
+}
+.contactitem{
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    height: 50%;
+}
+.contactitem img{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 10%;
+}
+
+.contactitem a,.contactitem span{
+    font-style: italic;
+}

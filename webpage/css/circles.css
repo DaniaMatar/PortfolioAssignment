@@ -1,0 +1,84 @@
+/* #circle1{
+    background-color: rgb(138, 157, 89);
+    border-radius: 50%;
+    height: 225px;
+    width: 225px;
+    margin-top: 10%;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    top: 100px;
+    right: 3%;
+    margin: 0%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+} */
+/* #circle2{
+    background-color: rgb(71, 80, 25);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-top: 10%;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    top: 250px;
+    left: 1%;
+    margin: 0%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+} */
+/* #circle3{
+    background-color: rgb(60, 38, 10);
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top: 10%;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    top: 150%;
+    right: 40%;
+    margin: 0%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#circle4{
+    background-color: rgba(73, 126, 40, 0.855);
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin-top: 10%;
+    position: absolute;
+    overflow: hidden;
+    z-index: -2;
+    top: 600px;
+    left: 20%;
+    margin: 0%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#circle5{
+    background-color: rgb(96, 87, 74);
+    border-radius: 50%;
+    height: 275px;
+    width: 275px;
+    margin-top: 10%;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    top: 800px;
+    right: 10%;
+    margin: 0%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+} */
+/* #circle6{
+    background-color: rgba(160, 153, 104, 0.849);
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+    margin-top: 10%;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    top: 900px;
+    left: 5%;
+    margin: 0%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+} */
