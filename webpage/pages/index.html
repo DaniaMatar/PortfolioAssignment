@@ -1,22 +1,10 @@
-<?php 
-session_start();
-session_unset();
-session_destroy();
 
-setcookie("language","en",time()+10);
-if (isset($_COOKIE["language"])){
-    echo $_COOKIE["language"];
-}
-else{
-    echo "language cookie doesnt exist";
-}
-?>
 <html>
     <head>
         <title>
             DaniaMatarCV
         </title>
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/main.css">
         <link rel="stylesheet" href="../css/icons.css">
     </head>
     <body>
@@ -31,10 +19,10 @@ else{
                         <a href="page1.html">
                             <li><i class="ico ico-l wallet-ico"></i>CV</li>
                         </a>
-                        <a href="page3.html">
+                        <a href="page2.html">
                             <li><i class="ico ico-l gallery-ico"></i>Gallery</li>
                         </a>
-                        <a href="page4.html">
+                        <a href="page3.html">
                             <li><i class="ico ico-l user-ico"></i>Contact me</li>
                         </a>
                     </ul>
@@ -47,12 +35,17 @@ else{
         </div> -->
         
         <div class="main">
-            <div class="animation">
-                <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
-                <dotlottie-player src="https://lottie.host/74793cba-c4d9-4a25-9bab-8dd22d4dbd5b/22hczvsVfR.json" background="transparent" speed="1" style="width: 500px; height: 550px;" loop autoplay></dotlottie-player>
-    
-                <div><button class="button" role="button">Contact me</button></div>
+            <div class="left">
+                <div class="animation">
+                    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+                    <dotlottie-player src="https://lottie.host/74793cba-c4d9-4a25-9bab-8dd22d4dbd5b/22hczvsVfR.json" background="transparent" speed="1" style="width: 500px; height: 550px;" loop autoplay></dotlottie-player>
+                </div>
+
+                <div><a href="page3.html"><button class="button" role="button">Contact me</button></a></div>
+
             </div>
+
+            
             <div class="box">
                 <h1>ABOUT ME</h1>
                 <hr>
@@ -64,5 +57,6 @@ else{
                 </div>
             </div>
         </div>
+        
     </body>
 </html>
