@@ -182,10 +182,7 @@ ul{
     top: 50%;
     transform: translate(-50%, -50%);
 }
-.title{
-    padding-top: 10px;
-    text-align: center;
-    margin-top: 40px;
-    font-size: 35px;
-    font-weight: bold;
-  }
+
+a{
+    text-decoration: none;
+}
