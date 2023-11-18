@@ -8,7 +8,7 @@ function readJsonFile($filename) {
 // Function to authenticate user
 function authenticateUser($username, $password, $userData) {
     foreach ($userData as $user) {
-        if ($user['email'] === $username && $user['pass'] === $password) {
+        if ($user['username'] === $username && $user['pass'] === $password) {
             return true;
         }
     }
@@ -31,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         header('Location: ./pages/page.html');
         exit;
     } else {
-        echo '<script>alert("Invalid email or password. Please try again.");</script>';
+        echo '<script>alert("Invalid username or password. Please try again.");</script>';
     }
 }
 ?>
@@ -43,24 +43,31 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <title>Login</title>
     </head>
     <body>
-        <div class="title">
-            <span>Login</span>
-        </div> 
-        <div class="paragraph">
-            <form action="" method="POST" id="login-form">
-            <label for="un">User Name</label>
-                <br>
-                <input type="text" name="username" id="un">
-                <br>
-                <label for="pass">Password</label>
-                <br>
-                <input type="password" name="password" id="pass">
-                <br>
-                <input type="button" value="Login" onclick="login()">
-                <input type="button" value="Cancel" onclick="ClearForm()">
-            </form>
-            <a href="pages/signUp.php">Sign Up...</a>
-        </div>
+    <div class="row header " >
+            
+    </div>
+        <div class="box">
+            <div class="title">
+                <span>Login</span>
+            </div> 
+            <div class="paragraph">
+                <form action="" method="POST" id="login-form">
+                <label for="un">User Name</label>
+                    <br>
+                    <input type="text" name="username" id="un">
+                    <br>
+                    <br>
+                    <label for="pass">Password</label>
+                    <br>
+                    <input type="password" name="password" id="pass">
+                    <br>
+                    <br>
+                    <input type="button" value="Login" class="button" onclick="login()">
+                    <input type="button" value="Cancel" class="button" onclick="ClearForm()">
+                </form>
+                <a href="pages/signUp.php" >Sign Up...</a>
+            </div>
+        </div>  
     
 <script>
     function login(){

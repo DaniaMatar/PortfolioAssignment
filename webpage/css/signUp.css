@@ -1,9 +1,12 @@
 body{
-    background-color: rgb(237, 242, 251);
+    background-color: rgb(231, 238, 250);
     margin:0;
 }
 .paragraph{
-    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 15px;
     font-size: 14px;
     font-family: arial;
     color: rgb(29,50,88);
@@ -19,7 +22,7 @@ body{
 .title{
     padding-top: 10px;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 60px;
     font-size: 35px;
     font-weight: bold;
     color:rgb(29, 50, 88);
@@ -31,8 +34,10 @@ body{
     display: block;
     width: 100%;
     background: rgb(74, 97, 150);
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px 1px;
 }
 .row.header{
     position: fixed;
     top: 0;
 }
+

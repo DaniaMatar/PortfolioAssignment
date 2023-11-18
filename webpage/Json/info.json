@@ -2,21 +2,31 @@
     {
         "firstname": "Dania",
         "lastname": "Matar",
-        "email": "dania.matar@lau.edu",
+        "email": null,
         "pass": "pass",
-        "sex": "m",
+        "sex": "f",
         "ageGroup": "above",
         "language": "en",
         "captcha": "true"
     },
     {
-        "firstname": "karim",
-        "lastname": "araybi",
-        "email": "araybikarim4@gmail.com",
-        "pass": "pass1",
-        "sex": "m",
+        "firstname": "Dania",
+        "lastname": "Matar",
+        "email": null,
+        "pass": "pass",
+        "sex": "f",
         "ageGroup": "above",
-        "language": "ar",
+        "language": "en",
+        "captcha": "true"
+    },
+    {
+        "firstname": "Dania",
+        "lastname": "Matar",
+        "email": null,
+        "pass": "pass",
+        "sex": "f",
+        "ageGroup": "above",
+        "language": "en",
         "captcha": "true"
     }
 ]

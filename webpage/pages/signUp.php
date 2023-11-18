@@ -62,9 +62,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <br>
                 <input type="text" name="lastname" class="txtfield">
                 <br>
-                <label for="un">Email</label>
+                <label for="un">Username</label>
                 <br>
-                <input type="text" name="email" class="txtfield">
+                <input type="text" name="username" class="txtfield">
                 <br>
                 <label for="pass">Password</label>
                 <br>
@@ -107,7 +107,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 var mForm=document.querySelector("form[name='signup-form']");
                 var fn=mForm.elements["firstname"].value;
                 var ln=mForm.elements["lastname"].value;
-                var email=mForm.elements["email"].value;
+                var user=mForm.elements["username"].value;
                 var pass=mForm.elements["pass"].value;
                 var confPass=mForm.elements["confirmPassword"].value;
                 var sex=mForm.elements["sex"].value;
@@ -116,7 +116,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 var captcha=mForm.elements["cbcaptcha"].checked;
                 console.log("fn:"+fn);
                 console.log("ln:"+ln);
-                console.log("email:"+email);
+                console.log("username:"+user);
                 console.log("pass:"+pass);
                 console.log("confPass:"+confPass);
                 console.log("sex:"+sex);
@@ -133,7 +133,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 var mForm=document.querySelector("form[name='signup-form']");
                 mForm.elements["firstname"].value="";
                 mForm.elements["lastname"].value="";
-                mForm.elements["email"].value="";
+                mForm.elements["username"].value="";
                 mForm.elements["pass"].value="";
                 mForm.elements["confirmPassword"].value="";
                 mForm.elements["sex"].value="m";

@@ -3,7 +3,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $data = array(
         'firstname' => $_POST['firstname'],
         'lastname' => $_POST['lastname'],
-        'email' => $_POST['email'],
+        'username' => $_POST['username'],
         'pass' => $_POST['pass'],
         'sex' => $_POST['sex'],
         'ageGroup' => $_POST['ageGroup'],
