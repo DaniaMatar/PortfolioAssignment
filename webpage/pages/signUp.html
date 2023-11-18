@@ -1,27 +1,19 @@
-
-<html>
-    <head>
-        <link rel="stylesheet" href="../css/signUp.css"> 
-        <link rel="stylesheet" href="../css/mForm.css"> 
-        <link rel="stylesheet" href="../css/icons.css"> 
-        <script>
-            // alert("my first javascript!"); 
-         </script>
-        <title>
-            Sign Up
-        </title>
-    </head>
-    <body>
-        <div class="row header" >
-            
-        </div>
-        <div class="title">
-            <span>Sign Up</h1>
-        </div>        
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/signUp.css"> 
+    <link rel="stylesheet" href="../css/mForm.css"> 
+    <link rel="stylesheet" href="../css/icons.css"> 
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="row header"></div>
+    <div class="title">
+        <span>Sign Up</span>
+    </div>        
     
-        <div class="paragraph">
-            <form action="../PHP/signup.php" method="POST" name="signup-form">
+    <div class="paragraph">
+            <form action="../PHP/signUp.php" method="POST" name="signup-form">
                 <label for="un">First Name</label>
                 <br>
                 <input type="text" name="firstname" class="txtfield">
@@ -30,18 +22,18 @@
                 <br>
                 <input type="text" name="lastname" class="txtfield">
                 <br>
-                <label for="un">Email</label>
+                <label for="un">Username</label>
                 <br>
-                <input type="text" name="email" class="txtfield">
+                <input type="text" name="username" class="txtfield">
                 <br>
                 <label for="pass">Password</label>
                 <br>
-                <input type="password" name="pass" class="txtfield">
+                <input type="password" name="password" class="txtfield">
                 <br>
                 <label for="pass">Confirm Password</label>
                 <br>
-                <input type="password" name="confirmPassword" class="txtfield">
-                
+                <input type="password" name="confPassword" class="txtfield">
+
                 <br><br>
                 <input type="radio" name="sex" checked id="r-male" value="m">
                 <label for="r-male">Male</label>
@@ -70,29 +62,29 @@
                 <input type="button" value="Cancel" class="mButton" onclick="ClearForm()">
             </form>
         </div>
-        <script>
-            function SignUp(){
+    <script>
+         function SignUp(){
                 var mForm=document.querySelector("form[name='signup-form']");
                 var fn=mForm.elements["firstname"].value;
                 var ln=mForm.elements["lastname"].value;
-                var emuserail=mForm.elements["username"].value;
-                var pass=mForm.elements["pass"].value;
-                var confPass=mForm.elements["confirmPassword"].value;
+                var username=mForm.elements["username"].value;
+                var password=mForm.elements["password"].value;
+                var confPassword=mForm.elements["confPassword"].value;
                 var sex=mForm.elements["sex"].value;
                 var ageGroup=mForm.elements["ageGroup"].value;
                 var language=mForm.elements["language"].value;
                 var captcha=mForm.elements["cbcaptcha"].checked;
                 console.log("fn:"+fn);
                 console.log("ln:"+ln);
-                console.log("username:"+user);
-                console.log("pass:"+pass);
-                console.log("confPass:"+confPass);
+                console.log("username:"+username);
+                console.log("pass:"+password);
+                console.log("confPassword:"+confPassword);
                 console.log("sex:"+sex);
                 console.log("ageGroup:"+ageGroup);
                 console.log("language:"+language);
                 console.log("captcha:"+captcha);
         
-                if ((pass!=confPass)||(pass==""))
+                if ((password!=confPassword)||(password==""))
                     alert("Passwords must be equal.");
                 else
                     mForm.submit();        
@@ -101,14 +93,14 @@
                 var mForm=document.querySelector("form[name='signup-form']");
                 mForm.elements["firstname"].value="";
                 mForm.elements["lastname"].value="";
-                mForm.elements["email"].value="";
-                mForm.elements["pass"].value="";
+                mForm.elements["username"].value="";
+                mForm.elements["password"].value="";
                 mForm.elements["confirmPassword"].value="";
                 mForm.elements["sex"].value="m";
                 mForm.elements["ageGroup"].value="above";
                 mForm.elements["language"].value=-1;
                 mForm.elements["cbcaptcha"].checked=false;
             }
-        </script>
+    </script>
 </body>
 </html>

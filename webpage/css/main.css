@@ -5,7 +5,18 @@
     background-color: rgb(144, 170, 229);
     height: 60px;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 8px 0px;
+    display: flex;
+    justify-content: space-between;
 }
+
+.welcome{
+    color: white;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+
 #dropdown-menu{
     cursor: pointer;
     display: inline-block;
@@ -157,4 +168,15 @@ a{
 
 h1{
     text-align: center;
+}
+#logout{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bold;
+    background-color:  rgb(144, 170, 229);
+    border: none;
+    text-decoration: underline;
+    padding: 12px;
+    cursor: pointer;
 }

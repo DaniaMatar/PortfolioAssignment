@@ -31,7 +31,8 @@ body{
 .title{
     padding-top: 10px;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 22px;
+    margin-bottom: 12px;
     font-size: 38px;
     font-weight: bold;
     color: rgb(231, 238, 250);
@@ -72,10 +73,12 @@ body{
 #un{
     border-radius: 12px;
     width: 200px;
-    height: 20px;
+    height: 25px;
+
 }
 #pass{
     border-radius: 12px;
     width: 200px;
-    height: 20px;
+    height: 25px;
+
 }

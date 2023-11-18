@@ -1,19 +1,7 @@
 
-{
-    "images": [
-      {
-        "name": "image1",
-        "src": "../images/image1.jpeg"
-      },
-      {
-        "name": "image2",
-        "src": "../images/image2.jpeg"
-      },
-      {
-        "name": "image3",
-        "src": "../images/image3.jpeg"
-      }
-     
-    ]
-  }
+[
+  "../images/image1.jpeg",
+  "../images/image2.jpeg",
+  "../images/image3.jpeg"
+]
   

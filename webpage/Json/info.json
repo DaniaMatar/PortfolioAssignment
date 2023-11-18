@@ -1,32 +1,18 @@
-[
-    {
-        "firstname": "Dania",
-        "lastname": "Matar",
-        "email": null,
-        "pass": "pass",
-        "sex": "f",
-        "ageGroup": "above",
-        "language": "en",
-        "captcha": "true"
+{
+    "hello": {
+        "username": "hello",
+        "password": "hello",
+        "firstname": "hello",
+        "lastname": "hello",
+        "sex": "m",
+        "ageGroup": "above"
     },
-    {
-        "firstname": "Dania",
-        "lastname": "Matar",
-        "email": null,
-        "pass": "pass",
+    "d": {
+        "username": "d",
+        "password": "d",
+        "firstname": "dania",
+        "lastname": "m",
         "sex": "f",
-        "ageGroup": "above",
-        "language": "en",
-        "captcha": "true"
-    },
-    {
-        "firstname": "Dania",
-        "lastname": "Matar",
-        "email": null,
-        "pass": "pass",
-        "sex": "f",
-        "ageGroup": "above",
-        "language": "en",
-        "captcha": "true"
+        "ageGroup": "above"
     }
-]
+}
