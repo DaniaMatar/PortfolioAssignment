@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Retrieve form data
+   
     $data = array(
         'firstname' => $_POST['firstname'],
         'lastname' => $_POST['lastname'],
@@ -12,22 +12,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         'captcha' => isset($_POST['cbcaptcha']) ? 'true' : 'false'
     );
 
-    // Read existing data from the JSON file
+   
     $file_path = '../Json/info.json';
     $existing_data = file_exists($file_path) ? json_decode(file_get_contents($file_path), true) : [];
 
-    // Add new user data to the array
+    
     $existing_data[] = $data;
 
-    // Convert the array to JSON format
+    
     $json_data = json_encode($existing_data, JSON_PRETTY_PRINT);
 
-    // Save the JSON data to the file
+    
     file_put_contents($file_path, $json_data);
 
-    // Optionally, you can redirect the user to a thank you page or do other actions
-    // header('Location: ./pages/page.html');
-    // exit;
+    
 }
 ?>
 
